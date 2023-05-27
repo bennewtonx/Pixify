@@ -1,8 +1,4 @@
-p {
-    color: #7BFFE9;
-}
-
-.nav {
+nav {
     position: absolute;
     width: 100%;
     height: 50px;
@@ -10,15 +6,71 @@ p {
     top: 0px;
     background-color: #2A3B49;
 }
-p {
+
+.logo {
+    font-family: Montserrat;
     color: #7BFFE9;
+    position: absolute;
+    left: 27px;
 }
 
-.nav {
+.navSubmissions {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: absolute;
+    height: 20px;
+    width: 174px;
+    left: 1170px;
+}
+
+.navAbout {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: absolute;
+    left: 1352px;
+}
+
+.landingPage {
+    position: relative;
+}
+
+.landingPageImg {
     position: absolute;
     width: 100%;
-    height: 50px;
+    height: 974px;
     left: 0px;
-    top: 0px;
+    top: 50px;
+}
+
+.landingPageImgText {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    width: 606px;
+    height: 354px;
+    left: 0px;
+    top: 556px;
     background-color: #2A3B49;
+    padding: 51px 34px 32px 27px;
+    border-radius: 90px 90px 90px 0px;
+}
+
+.landingPageButton {
+    font-family: Montserrat;
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+    border-style: solid;
+    border-color: #7BFFE9;
+    color: #7BFFE9;
+    padding: 38px 26px 37px 25px;
+    border-radius: 90px 90px 90px 90px;
+    width: 367px;
+    height: 40px;
+    left: 1024px;
+    top: 851px;
 }
