@@ -5,22 +5,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="otherPagesCSS.css">
+    <link rel="stylesheet" href="CSSstylesheet.css">
     
 </head>
 <body>
-<nav>
 
-    <a class="logo" href="Landing Page.html">PIXIFY</a>
-    <a class="navSubmissions" href="2023 Submissions.html">2023 Submissions</a>
-    <a class="navAbout" href="About.html">About</a>
-    <p class="navDarkMode">Dark Mode</p>
+    <nav>
 
-</nav>
+        <a class="logo" href="Landing Page.html">PIXIFY</a>
+        <a class="navSubmissions" href="2023 Submissions.html">2023 Submissions</a>
+        <a class="navAbout" href="About.html">About</a>
+        <button class="navDarkMode" onclick="changeColor()">Dark Mode</button>
 
-<h1>WILD ANIMALS</h1>
+    </nav>
 
-<img src=""
+        <h1 id="detailsTitle"><strong>WILD ANIMALS</strong></h1>
+        <h1 id="detailsArtist">Jane Doe</h1>
 
+        <img id="cheetah" src="gwen-weustink-I3C1sSXj1i8-unsplash.jpg">
+
+        <p id="detailsNumber">2 of 5</p>
+
+    <div class="detailsButton">
+
+        <button>Previous</button>
+        <button>Next</button>
+
+    </div>
+
+    <script src="JS.js"></script>
 </body>
 </html>

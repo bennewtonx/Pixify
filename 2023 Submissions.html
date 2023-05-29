@@ -5,72 +5,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="otherPagesCSS.css">
+    <link rel="stylesheet" href="CSSstylesheet.css">
     
 </head>
 <body>
-<nav>
 
-    <a class="logo" href="Landing Page.html">PIXIFY</a>
-    <a class="navSubmissions" href="2023 Submissions.html">2023 Submissions</a>
-    <a class="navAbout" href="About.html">About</a>
-    <p class="navDarkMode">Dark Mode</p>
+    <nav>
 
-</nav>
+        <a class="logo" href="Landing Page.html">PIXIFY</a>
+        <a class="navSubmissions" href="2023 Submissions.html">2023 Submissions</a>
+        <a class="navAbout" href="About.html">About</a>
+        <button class="navDarkMode" onclick="changeColor()">Dark Mode</button>
 
-<div class="grid">
+    </nav>
 
-    <h2 class="submissionsTitle">2023 Submissions</h2>
+    <div class="grid">
 
-    <div class="submitForm">
+        <h2 class="submissionsTitle">2023 Submissions</h2>
 
-        <h2>SUBMIT YOUR WORK</h2>
-        <textarea>Your Name</textarea>
-        <textarea>Title of Your Entry</textarea>
-        <textarea>Image Url One</textarea>
-        <textarea>Image Url Two</textarea>
-        <textarea>Image Url Three</textarea>
-        <textarea>Image Url Four</textarea>
-        <textarea>Image Url Five</textarea>
+        <div class="submitForm">
 
-        <button class="submissionSubmitButton">Submit</button>
+            <h2>SUBMIT YOUR WORK</h2>
+            <textarea>Your Name</textarea>
+            <textarea>Title of Your Entry</textarea>
+            <textarea>Image Url One</textarea>
+            <textarea>Image Url Two</textarea>
+            <textarea>Image Url Three</textarea>
+            <textarea>Image Url Four</textarea>
+            <textarea>Image Url Five</textarea>
 
+            <button class="submissionSubmitButton">Submit</button>
+
+
+         </div>
+
+        <figure class="nature">
+
+             <img src="mount fuji.jpg">
+            <figcaption>Nature Adventures - Jane Doe <small>see more</small></figcaption>
+
+        </figure>
+
+         <figure class="cuteDogs">
+            <img src="cute dog.jpg">
+            <figcaption>Faces of the World - Jane Doe<small>see more</small></figcaption>
+        </figure>
+
+
+        <figure class="wildAnimals">
+            <a href="Details.html"><img src="panda.jpg"></a>
+            <figcaption>Wild Animals - Jane Doe<small>see more</small></figcaption>
+        </figure>
+
+        <figure class="incredibleSights">
+            <img src="northern lights.jpg">
+            <figcaption>Innocence - Andrew Smith<small>see more</small></figcaption>
+        </figure>
+
+        <figure class="travelDiaries">
+            <img src="view from plane.jpg">
+            <figcaption>Travel Diariess - Irna Towsen<small>see more</small></figcaption>
+        </figure>
+
+        <figure class="wondersOfTheWorld">
+            <img src="pryamid.jpg">
+            <figcaption>Nature Adventures - Jane Doe<small>see more</small></figcaption>
+        </figure>
 
     </div>
 
-    <figure class="nature">
-        <img src="mount fuji.jpg">
-        <figcaption>Nature Adventures - Jane Doe <small>see more</small></figcaption>
-    </figure>
-
-    <figure class="cuteDogs">
-        <img src="cute dog.jpg">
-        <figcaption>Faces of the World - Jane Doe<small>see more</small></figcaption>
-    </figure>
-
-
-    <figure class="wildAnimals">
-        <img src="panda.jpg">
-        <figcaption>Wild Animals - Jane Doe<small>see more</small></figcaption>
-    </figure>
-
-    <figure class="incredibleSights">
-        <img src="northern lights.jpg">
-        <figcaption>Innocence - Andrew Smith<small>see more</small></figcaption>
-    </figure>
-
-    <figure class="travelDiaries">
-        <img src="view from plane.jpg">
-        <figcaption>Travel Diariess - Irna Towsen<small>see more</small></figcaption>
-     </figure>
-
-    <figure class="wondersOfTheWorld">
-        <img src="pryamid.jpg">
-        <figcaption>Nature Adventures - Jane Doe<small>see more</small></figcaption>
-    </figure>
-
-</div>
-
-
+    <script src="JS.js"></script>
 </body>
 </html>
