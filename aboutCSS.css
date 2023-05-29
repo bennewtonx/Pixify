@@ -1,3 +1,16 @@
+.darkMode {
+    background-color: #2A3B49;
+
+}
+
+.darkMode p {
+    color: #FFFFFF;
+}
+
+.darkMode h1 {
+    color: #FFFFFF;
+}
+
 nav {
     position: absolute;
     width: 100%;
@@ -41,9 +54,14 @@ nav {
 
 .navDarkMode {
     font-family: Montserrat;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
     color: #7BFFE9;
     font-size: 16px;
     position: absolute;
+    top: 14px;
     left: 1352px;
 
     
