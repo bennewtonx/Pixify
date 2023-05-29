@@ -21,6 +21,10 @@
     color: #FFFFFF;
 }
 
+.darkMode h2 {
+    color: #FFFFFF;
+}
+
 nav {
     position: absolute;
     width: 100%;
