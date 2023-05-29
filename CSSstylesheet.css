@@ -1,3 +1,26 @@
+.darkMode {
+    background-color: #2A3B49;
+}
+
+.darkMode p {
+    color: #FFFFFF;
+}
+
+.darkMode h1 {
+    color: #FFFFFF;
+}
+
+.darkMode button {
+
+    border-color: #7BFFE9;
+    color: #7BFFE9;
+    background-color: transparent;
+}
+
+.darkMode figcaption {
+    color: #FFFFFF;
+}
+
 nav {
     position: absolute;
     width: 100%;
@@ -24,16 +47,34 @@ nav {
     position: absolute;
     height: 20px;
     width: 174px;
-    left: 1170px;
+    left: 1077px;
     top: 14px;
 }
 
 .navAbout {
     font-family: Montserrat;
     color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    height: 20px;
+    position: absolute;
+    left: 1251px;
+    top: 14px;
+}
+
+.navDarkMode {
+    font-family: Montserrat;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: #7BFFE9;
     font-size: 16px;
     position: absolute;
+    top: 14px;
     left: 1352px;
+
+    
 }
 
 .landingPage {
@@ -77,4 +118,225 @@ nav {
     height: 40px;
     left: 1024px;
     top: 851px;
+}
+
+.grid {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
+    gap: 60px 68px;
+    grid-template-areas:
+    "submissionsTitle submissionsTitle submitForm"
+    "nature cuteDogs submitForm"
+    "wildAnimals incredibleSights submitForm"
+    "travelDiaries wondersOfTheWorld ..";
+}
+
+.grid img {
+    width: 345px;
+    height: 193px;
+    border-radius: 8px;
+}
+
+.submissionsTitle {
+    grid-area: submissionsTitle;
+    font-family: Montserrat;
+    font-size: 36px;
+    text-align: center;
+}
+
+.submitForm {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    grid-area: submitForm;
+    width: 481px;
+    height: 646px;
+    background-color: #2A3B49;
+    top: 60px;
+    left: 68px;
+    border-radius: 8px;
+}
+
+.submitForm textarea {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #d9d9d9;
+    width: 360px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: auto;
+    margin: 20px 0 0 0;
+}
+
+.submissionSubmitButton {
+    font-family: Montserrat;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #7BFFE9;
+    color: #7BFFE9;
+    background-color: transparent;
+    padding: 21px 33px 21px 33px;
+    border-radius: 90px 90px 90px 90px;
+    margin: 41px 0 0 0;
+}
+
+.nature {
+    grid-area: nature;
+}
+
+.cuteDogs {
+    grid-area: cuteDogs;
+}
+
+.wildAnimals {
+    grid-area: wildAnimals;
+}
+
+.incredibleSights {
+    grid-area: incredibleSights;
+}
+
+.travelDiaries {
+    grid-area: travelDiaries;
+}
+
+.wondersOfTheWorld {
+    grid-area: wondersOfTheWorld;
+}
+
+figcaption {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.mainHeading {
+    position: absolute;
+    text-align: center;
+    font-family: Montserrat;
+    width: 470px;
+    left: 533px;
+    top: 77px;
+}
+
+.welcomeText {
+    position: absolute;
+    text-align: center;
+    width: 1320px;
+    height: 84px;
+    left: 60px;
+    top: 160px;
+}
+
+.mainText {
+    position: absolute;
+    font-family: Montserrat;
+    text-align: start;
+    font: 20px;
+    width: 817px;
+    left: 80px;
+    top: 310px;
+}
+
+.aboutImg {
+    position: absolute;
+    width: 445px;
+    height: 608px;
+    left: 935px;
+    top: 310px;
+    border-radius: 8px;
+}
+
+.aboutButton {
+    font-family: Montserrat;
+    font-size: 36px;
+    width: 367px;
+    height: 115px;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    top: 803px;
+    border-style: solid;
+    border-color: #2A3B49;
+    background-color: #2A3B49;
+    color: #7BFFE9;
+    padding: 38px 26px 37px 25px;
+    border-radius: 90px 90px 90px 90px;
+    margin: 30px 0 106px 0;
+}
+
+#cheetah {
+    position: absolute;
+    width: 1120px;
+    height: 582px;
+    left: 160px;
+    top: 240px;
+    padding: 40px 0 0 0;
+}
+
+#detailsTitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    width: 407px;
+    text-align: center;
+    position: absolute;
+    left: 513px;
+    top: 94px;
+}
+
+#detailsArtist {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 36px;
+    width: 407px;
+    text-align: center;
+    position: absolute;
+    left: 513px;
+    top: 154px;
+}
+
+#detailsNumber {
+    font-family: 'Montserrat';
+    position: absolute;
+    text-align: center;
+    width: 407px;
+    height: 29px;
+    left: 507px;
+    top: 905px;
+    font-size: 20px;
+}
+
+.detailsButton {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: absolute;
+    left: 584px;
+    top: 1005px;
+}
+
+.detailsButton button {
+    font-family: Montserrat;
+    font-size: 20px;
+    width: 103px;
+    height: 35px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 60px;
+    border-color: #2A3B49;
+    color: #7BFFE9;
+    background-color: #2A3B49;
+    margin: 0 0 89px 20px;
 }
