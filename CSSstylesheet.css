@@ -129,9 +129,9 @@ nav {
     gap: 60px 68px;
     grid-template-areas:
     "submissionsTitle submissionsTitle submitForm"
-    "nature cuteDogs submitForm"
-    "wildAnimals incredibleSights submitForm"
-    "travelDiaries wondersOfTheWorld ..";
+    "nature faces submitForm"
+    "wildAnimals innocence submitForm"
+    "travelDiaries nature1 ..";
 }
 
 .grid img {
@@ -189,24 +189,24 @@ nav {
     grid-area: nature;
 }
 
-.cuteDogs {
-    grid-area: cuteDogs;
+.faces {
+    grid-area: faces;
 }
 
 .wildAnimals {
     grid-area: wildAnimals;
 }
 
-.incredibleSights {
-    grid-area: incredibleSights;
+.innocence {
+    grid-area: innocence;
 }
 
 .travelDiaries {
     grid-area: travelDiaries;
 }
 
-.wondersOfTheWorld {
-    grid-area: wondersOfTheWorld;
+.nature1 {
+    grid-area: nature1;
 }
 
 figcaption {
